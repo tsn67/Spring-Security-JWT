@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Spring Security JWT
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring-security?createDatabaseIfNotExist=true
+    username: root
+    password: JavaProg@67
+server:
+  port: 5000 # default port is 8080
