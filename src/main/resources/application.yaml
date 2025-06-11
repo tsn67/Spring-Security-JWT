@@ -5,5 +5,8 @@ spring:
     url: jdbc:mysql://localhost:3306/spring-security?createDatabaseIfNotExist=true
     username: root
     password: JavaProg@67
+  jwt:
+    secret: d642d9e7b2f7099c70cb54c08e92eb92fa5b2cf3baef91d0
+    accessTokenExpiration: 300 # 1m
 server:
   port: 5000 # default port is 8080
